@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78318E342A0CC11B003681AF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78318E322A0CC11A003681AF /* Model.xcdatamodeld */; };
+		78318E362A0F408A003681AF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78318E352A0F408A003681AF /* DataController.swift */; };
+		78318E382A0F49F1003681AF /* AddSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78318E372A0F49F1003681AF /* AddSpotView.swift */; };
+		7841A56329FEF27100DEFFB1 /* Parallax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841A56229FEF27100DEFFB1 /* Parallax.swift */; };
+		78619F8A29F8ED320034DC5D /* AuraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78619F8929F8ED320034DC5D /* AuraView.swift */; };
+		78619F8F29F97E230034DC5D /* fontDefault-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78619F8D29F97C5D0034DC5D /* fontDefault-thin.ttf */; };
 		78D7A02D29F8985100660C56 /* LockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7A02C29F8985100660C56 /* LockApp.swift */; };
 		78D7A02F29F8985100660C56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7A02E29F8985100660C56 /* ContentView.swift */; };
 		78D7A03129F8985300660C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D7A03029F8985300660C56 /* Assets.xcassets */; };
@@ -14,6 +20,7 @@
 		78D7A03E29F8985300660C56 /* LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7A03D29F8985300660C56 /* LockTests.swift */; };
 		78D7A04829F8985400660C56 /* LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7A04729F8985400660C56 /* LockUITests.swift */; };
 		78D7A04A29F8985400660C56 /* LockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7A04929F8985400660C56 /* LockUITestsLaunchTests.swift */; };
+		78D7A05929F89BA400660C56 /* threeDimensionalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D7A05829F89BA400660C56 /* threeDimensionalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78318E332A0CC11A003681AF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		78318E352A0F408A003681AF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		78318E372A0F49F1003681AF /* AddSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpotView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		7841A56229FEF27100DEFFB1 /* Parallax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallax.swift; sourceTree = "<group>"; };
+		78619F8929F8ED320034DC5D /* AuraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraView.swift; sourceTree = "<group>"; };
+		78619F8C29F97C2F0034DC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78619F8D29F97C5D0034DC5D /* fontDefault-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontDefault-thin.ttf"; sourceTree = "<group>"; };
+		78619F9029F9F1600034DC5D /* fontDefault.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fontDefault.ttf; path = ../../../Downloads/Nunito/static/fontDefault.ttf; sourceTree = "<group>"; };
 		78D7A02929F8985100660C56 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D7A02C29F8985100660C56 /* LockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockApp.swift; sourceTree = "<group>"; };
 		78D7A02E29F8985100660C56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,7 @@
 		78D7A04329F8985400660C56 /* LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D7A04729F8985400660C56 /* LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockUITests.swift; sourceTree = "<group>"; };
 		78D7A04929F8985400660C56 /* LockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78D7A05829F89BA400660C56 /* threeDimensionalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDimensionalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,7 @@
 				78D7A03C29F8985300660C56 /* LockTests */,
 				78D7A04629F8985400660C56 /* LockUITests */,
 				78D7A02A29F8985100660C56 /* Products */,
+				A36A4EF565880CBC4FF439E5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +111,19 @@
 		78D7A02B29F8985100660C56 /* Lock */ = {
 			isa = PBXGroup;
 			children = (
+				78619F8C29F97C2F0034DC5D /* Info.plist */,
 				78D7A02C29F8985100660C56 /* LockApp.swift */,
 				78D7A02E29F8985100660C56 /* ContentView.swift */,
+				78318E372A0F49F1003681AF /* AddSpotView.swift */,
+				78D7A05829F89BA400660C56 /* threeDimensionalButton.swift */,
+				7841A56229FEF27100DEFFB1 /* Parallax.swift */,
+				78619F8929F8ED320034DC5D /* AuraView.swift */,
+				78619F8D29F97C5D0034DC5D /* fontDefault-thin.ttf */,
+				78619F9029F9F1600034DC5D /* fontDefault.ttf */,
 				78D7A03029F8985300660C56 /* Assets.xcassets */,
 				78D7A03229F8985300660C56 /* Preview Content */,
+				78318E322A0CC11A003681AF /* Model.xcdatamodeld */,
+				78318E352A0F408A003681AF /* DataController.swift */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -125,6 +151,13 @@
 				78D7A04929F8985400660C56 /* LockUITestsLaunchTests.swift */,
 			);
 			path = LockUITests;
+			sourceTree = "<group>";
+		};
+		A36A4EF565880CBC4FF439E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +240,7 @@
 				};
 			};
 			buildConfigurationList = 78D7A02429F8985100660C56 /* Build configuration list for PBXProject "Lock" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78D7A03429F8985300660C56 /* Preview Assets.xcassets in Resources */,
+				78619F8F29F97E230034DC5D /* fontDefault-thin.ttf in Resources */,
 				78D7A03129F8985300660C56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78318E362A0F408A003681AF /* DataController.swift in Sources */,
 				78D7A02F29F8985100660C56 /* ContentView.swift in Sources */,
+				78619F8A29F8ED320034DC5D /* AuraView.swift in Sources */,
 				78D7A02D29F8985100660C56 /* LockApp.swift in Sources */,
+				78D7A05929F89BA400660C56 /* threeDimensionalButton.swift in Sources */,
+				7841A56329FEF27100DEFFB1 /* Parallax.swift in Sources */,
+				78318E382A0F49F1003681AF /* AddSpotView.swift in Sources */,
+				78318E342A0CC11B003681AF /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +460,12 @@
 				DEVELOPMENT_TEAM = SU5789R8HD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +473,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +493,12 @@
 				DEVELOPMENT_TEAM = SU5789R8HD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +506,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +631,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78318E322A0CC11A003681AF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78318E332A0CC11A003681AF /* Model.xcdatamodel */,
+			);
+			currentVersion = 78318E332A0CC11A003681AF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 78D7A02129F8985100660C56 /* Project object */;
 }
