@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct LockApp: App {
+    
     
     @StateObject private var dataController = DataController()
     
