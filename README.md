@@ -1,10 +1,8 @@
 # Loc Reminder
 
-# Loc Reminder Help
+## Loc Reminder Help
 
-## Headers
-
-# Setup Process
+### Setup Process
 You will only see the setup page on the first launch of this app. The setup page only asks for access to certain permissions:
 
 
@@ -17,7 +15,7 @@ You will only see the setup page on the first launch of this app. The setup page
 
 
 ##
-# FAQ
+### FAQ
 > How does Loc Reminder work?
 
 The meat of the app's functionality is the ability to detect when a user has entered/left a location. We use geofencing to set up circular regions around your desired locations, and the app automatically becomes active in the background, and we deliver the notifications.
